@@ -1,0 +1,11 @@
+;; ((nil . ((projectile-project-compilation-cmd . "make gen")))
+;;  (verilog-mode . ((compile-command . "make gen"))))
+;; .dir-locals.el
+;; ((nil . ((projectile-project-compilation-cmd . "make gen")
+;;          (projectile-project-run-cmd . "make run")))
+;;  (verilog-mode . ((compile-command . "make gen")
+;;                   (run-command . "make vcs.bld.deimos_eth_top_verif BLDR_3STEP_FLOW=1"))))
+
+((nil . ((projectile-project-compilation-cmd . "make gen")
+	 (projectile-project-test-cmd . "make spyglass.pbeg_core.lint")
+         (projectile-project-run-cmd . "make vcs.bld.deimos_eth_top_verif BLDR_3STEP_FLOW=1"))))

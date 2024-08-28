@@ -1,0 +1,26 @@
+* Global Key Set
+** Where is the configuration?
+- ~/.emacs.d/init.el
+  This is the primary file to use to configure Emacs. It is written by Emacs Lisp Language.
+*** Create the new file (C-x C-f)
+*** Save file (C-x C-s)
+*** Open a file (C-c p f)
+*** Search a string in buffer (C-s)
+*** Search and Replace (M-%)
+*** Upcase/downcase string/region (Select string/region, M-x upcase-region/downcase-region)
+*** Search a string in project directory (C-c p s  r)
+*** Save file and exit (C-x C-c)
+*** Switch buffer (C-x b)
+*** How to find more things to configure
+**** describe-variable (C-h v)
+**** describe-function (C-h f)
+**** describe-symbol (C-h o)
+**** describe-keymap (C-h b)
+
+* Verilog-mode Key Set
+** Insert header (header <TAB>)
+
+* Org-mode Key Set
+** Scheduling (C-c C-s)
+** Deadline (C-c C-d)
+** Swich to agenda view with (C-a a)
