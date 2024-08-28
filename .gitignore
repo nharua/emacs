@@ -3,3 +3,5 @@ places
 projectile-bookmarks.eld
 recentf
 backup
+auto-save-list
+emacs-custom.el
